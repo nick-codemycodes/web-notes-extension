@@ -1,0 +1,53 @@
+# Initialization and workspace automation scripts
+gh_project_init.sh
+project-dir.txt
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic / Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+/.pnp
+.pnp.js
+
+# Build & Vite output
+/dist
+/build
+/.vite
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript / Editor declarations
+*.tsbuildinfo
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# Extension specific debugging & metadata
+_debug/
+_metadata/
+*.crx
+*.pem
+
+# OS generated files
+Thumbs.db
